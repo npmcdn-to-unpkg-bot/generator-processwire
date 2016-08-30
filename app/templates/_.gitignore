@@ -1,0 +1,70 @@
+htdocs/site/assets/cache/*
+!htdocs/site/assets/cache/.keep
+
+htdocs/site/assets/logs/*
+!htdocs/site/assets/logs/.keep
+
+htdocs/site/assets/sessions/*
+!htdocs/site/assets/sessions/.keep
+
+htdocs/site/templates/assets/*
+
+site-nw/
+
+.idea/
+.project
+*.iml
+node_modules
+src/vendor/
+.tmp/
+bower_components
+.sass-cache/
+
+.wire
+
+### Windows ###
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk

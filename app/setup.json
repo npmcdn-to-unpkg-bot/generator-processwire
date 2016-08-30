@@ -1,0 +1,44 @@
+{
+	"questions": [
+		{
+			"type":"input",
+			"name":"name",
+			"message":"Projectname."
+		},
+		{
+			"type":"input",
+			"name":"description",
+			"message":"Project-Description."
+		},
+		{
+			"type":"input",
+			"name":"repository",
+			"message":"Project-Repository (URL)."
+		},
+		{
+			"type":"input",
+			"name":"author",
+			"message":"Author"
+		},
+		{
+			"type":"input",
+			"name":"authorUrl",
+			"message":"Author URL."
+		},
+		{
+			"type":"input",
+			"name":"authorMail",
+			"message":"Author Mail."
+		}
+	],
+	"readme" : "_readme.md",
+	"templates": [
+		"_package.json",
+		"_bower.json",
+		"_.editorconfig",
+		"_.bowerrc",
+		"_.jshintrc",
+		"_.gitignore",
+		"_.jsbeautifyrc"
+	]
+}

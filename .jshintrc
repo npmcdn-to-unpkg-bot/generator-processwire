@@ -1,0 +1,17 @@
+{
+	"node": true,
+	"maxdepth": 4,
+	"esversion": 6,
+	"bitwise": true,
+	"eqeqeq": true,
+	"immed": true,
+	"latedef": true,
+	"noarg": true,
+	"funcscope": false,
+	"quotmark": "single",
+	"regexp": true,
+	"undef": true,
+	"unused": true,
+	"strict": true,
+	"trailing": true
+}

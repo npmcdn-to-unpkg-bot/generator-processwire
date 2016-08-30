@@ -1,0 +1,21 @@
+{
+	"processwire": {
+		"name":"processwire",
+		"path":"htdocs",
+		"user":"ryancramerdesign",
+		"reposetory":"ProcessWire",
+		"branch":"dev"
+	},
+	"kickstarter": {},
+	"profile": {},
+	"questions_defaults": {
+		"description": "This is a project made width EX3MP's generator-processwire."
+	},
+	"bower": {
+		"dependencies": {}
+	},
+	"npm": {
+		"dependencies": {},
+		"devDependencies": {}
+	}
+}

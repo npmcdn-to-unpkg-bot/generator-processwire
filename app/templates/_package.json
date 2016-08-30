@@ -1,0 +1,22 @@
+{
+	"name": "<%= name %>",
+	"version": "0.0.1",
+	"main": "htdocs/index.php",
+	"assets": "<%= assetsPath %>",
+	"templates": "<%= templatesPath %>",
+	"repository": {
+		"type": "git",
+		"url": "<%= repository %>"
+	},
+	"engine-strict" : true,
+	"engines" : {
+		"node": ">=0.12.x"
+	},
+	"description": "<%= description %>",
+	"author": "<%= author %>",
+	"homepage": "<%= authorUrl %>",
+	"license": "",
+	"developers": "",
+	"dependencies": {},
+	"devDependencies": {}
+}

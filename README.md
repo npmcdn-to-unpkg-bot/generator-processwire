@@ -16,7 +16,7 @@ generator processwire is a yeoman generator that downloads and scaffolds  proces
 ### Ok, so what exactly does it do?
 - downloads the latest processwire from github
 - adds a fancy frontend toolchain [https://github.com/EX3MP/kickstarter-grunt/](https://github.com/EX3MP/kickstarter-grunt/)
-- downloads a repo for a custom processwire site-profile
+- downloads a repo for a custom processwire site-profile (default: [https://github.com/EX3MP/site-rocket/](https://github.com/EX3MP/site-rocket/))
 - downloads modules for custom profile from repos
 - installs bower and npm modules via  configs
 - creates a readme.md with all bower and npm modules that are used
@@ -27,7 +27,7 @@ generator processwire is a yeoman generator that downloads and scaffolds  proces
 
 ```bash
 generator-processwire/app/config.default.json
-generator-processwire/app/config.json
+generator-processwire/app/config.json // own config
 ```
 
 ### config.json example
@@ -43,13 +43,6 @@ generator-processwire/app/config.json
         "branch":"master",
         "name": "site-rocket",
         "url": "git@github.com:EX3MP/site-rocket.git"
-    },
-    "questions_defaults": {
-        "name": "no-name",
-        "author" : "",
-        "authorUrl" : "",
-        "authorMail": "",
-        "description": ""
     }
 }
 ```
@@ -71,23 +64,27 @@ generator-processwire/app/config.json
         }
     },
     "npm": {
+        "scripts": {
+            "setup": "npm install && bower install",
+            "dev": "grunt dev",
+            "build": "grunt build"
+        },
         "dependencies": {},
         "devDependencies": {
-            "grunt": "*",
-            "grunt-cli": "*",
-            "grunt-exec": "*",
-            "grunt-copy": "*",
-            "grunt-banner": "*",
-            "grunt-modernizr": "*",
-            "grunt-sass": "*",
-            "load-grunt-tasks": "*",
-            "grunt-concurrent": "*",
-            "grunt-autoprefixer": "*",
-            "grunt-contrib-sass": "*",
-            "grunt-contrib-copy": "*",
-            "grunt-browser-sync": "*",
-            "grunt-contrib-watch": "*",
-            "grunt-contrib-uglify": "*",
+            "grunt-copy": "0.1.0",
+            "grunt": "0.4.3",
+            "grunt-autoprefixer": "3.0.4",
+            "grunt-banner": "0.6.0",
+            "grunt-browser-sync": "2.2.0",
+            "grunt-concurrent": "2.3.0",
+            "grunt-contrib-copy": "1.0.0",
+            "grunt-contrib-sass": "1.0.0",
+            "grunt-contrib-uglify": "1.0.1",
+            "grunt-contrib-watch": "1.0.0",
+            "grunt-exec": "1.0.0",
+            "grunt-modernizr": "1.0.2",
+            "grunt-sass": "1.2.0",
+            "load-grunt-tasks": "3.5.0",
             "foundation-sites": "*"
         }
     }

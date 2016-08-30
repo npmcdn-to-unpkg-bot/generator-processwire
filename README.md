@@ -8,7 +8,6 @@ npm install -g generator-processwire
 
 - [License](license.txt)
 - [Manual Installation](install.md)
-- **Version: 0.0.7 [(Dev 0.0.8)](?at=dev)**
 
 ## What is generator processwire?
 

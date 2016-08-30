@@ -1,21 +1,33 @@
 {
-	"processwire": {
-		"name":"processwire",
-		"path":"htdocs",
-		"user":"ryancramerdesign",
-		"reposetory":"ProcessWire",
-		"branch":"dev"
-	},
-	"kickstarter": {},
-	"profile": {},
-	"questions_defaults": {
-		"description": "This is a project made width EX3MP's generator-processwire."
-	},
-	"bower": {
-		"dependencies": {}
-	},
-	"npm": {
-		"dependencies": {},
-		"devDependencies": {}
-	}
+    "processwire": {
+        "name": "processwire",
+        "path": "htdocs",
+        "user": "ryancramerdesign",
+        "reposetory": "ProcessWire",
+        "branch": "dev"
+    },
+    "kickstarter": {
+        "branch": "master",
+        "name": "kickstarter-grunt",
+        "url": "git@github.com:EX3MP/kickstarter-grunt.git"
+    },
+    "profile": {
+        "branch": "master",
+        "name": "site-rocket",
+        "url": "git@github.com:EX3MP/site-rocket.git"
+    },
+    "questions_defaults": {
+        "name": "no-name",
+        "author": "John Doe",
+        "authorUrl": "http://www.domain.tld",
+        "authorMail": "info@domain.tld",
+        "description": "This is a Project made by me"
+    },
+    "bower": {
+        "dependencies": {}
+    },
+    "npm": {
+        "dependencies": {},
+        "devDependencies": {}
+    }
 }

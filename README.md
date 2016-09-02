@@ -59,7 +59,7 @@ generator-processwire/app/config.json // own config
         "dependencies": {
             "jquery": "*",
             "owl-carousel2": "*",
-            "headroom.js": "https://npmcdn.com/headroom.js/bower.zip",
+            "headroom.js": "https://unpkg.com/headroom.js/bower.zip",
             "lazysizes": "*"
         }
     },
